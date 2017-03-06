@@ -53,7 +53,7 @@ $(document)
 
         weightOnPlanet = weightOnPlanet / 100;
 
-        $("#output").html('<strong>If</strong> you were on ' + planetName + ', you would weigh ' + weightOnPlanet + 'lbs');
+        $("#output").html('If you were on ' + planetName + ', you would weigh ' + weightOnPlanet + 'lbs');
 
         return false;
       });
