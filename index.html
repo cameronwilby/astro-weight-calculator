@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AstroWeight Calculator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Astro Weight Calculator</h1>
+    </div>
+
+    <div class='container'>
+      <form id="astroWeightForm" class="form-inline">
+        <div class="form-group">
+          <label for="userWeight">Your weight</label>
+          <input type="text" class="form-control" id="userWeight">
+        </div>
+        <div class="form-group">
+          <label for="planetsDropdown"> on</label>
+          <select class="form-control" id="planetsDropdown"></select>
+        </div>
+        <button class="btn btn-default">Calculate</button>
+      </form>
+
+      <p id="output"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src='astroweight.js'></script>
+  </body>
+</html>
